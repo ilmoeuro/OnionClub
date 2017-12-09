@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=1]
+[gd_scene load_steps=9 format=1]
 
 [ext_resource path="res://Tileset.tres" type="TileSet" id=1]
 [ext_resource path="res://PlayerCharacter.tscn" type="PackedScene" id=2]
@@ -29,6 +29,11 @@ height = 160.0
 
 custom_solver_bias = 0.0
 points = Vector2Array( 3072, 5632, 4096, 5632, 4096, 6144, 3072, 6144 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -256, 4352, 256, 4352, 256, 4864, -256, 4864 )
 
 [node name="Root" type="Node2D"]
 
@@ -102,8 +107,9 @@ shape = SubResource( 3 )
 trigger = false
 _update_shape_index = 0
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="DeathPoly1" type="StaticBody2D" parent="."]
 
+editor/display_folded = true
 input/pickable = false
 shapes/0/shape = SubResource( 4 )
 shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
@@ -115,10 +121,30 @@ constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="DeathPoly1"]
 
 build_mode = 0
 polygon = Vector2Array( 3072, 5632, 4096, 5632, 4096, 6144, 3072, 6144 )
+shape_range = Vector2( 0, 0 )
+trigger = false
+
+[node name="FinishPoly1" type="StaticBody2D" parent="."]
+
+input/pickable = false
+shapes/0/shape = SubResource( 5 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 4
+collision/mask = 4
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="FinishPoly1"]
+
+build_mode = 0
+polygon = Vector2Array( -256, 4352, 256, 4352, 256, 4864, -256, 4864 )
 shape_range = Vector2( 0, 0 )
 trigger = false
 

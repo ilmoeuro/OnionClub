@@ -1,4 +1,4 @@
-[gd_scene load_steps=132 format=1]
+[gd_scene load_steps=194 format=1]
 
 [ext_resource path="res://Spriter/animaatio/idle_000.png" type="Texture" id=1]
 [ext_resource path="res://Spriter/animaatio/idle_001.png" type="Texture" id=2]
@@ -62,72 +62,134 @@
 [ext_resource path="res://Spriter/animaatio/idle_059.png" type="Texture" id=60]
 [ext_resource path="res://Spriter/animaatio/idle_060.png" type="Texture" id=61]
 [ext_resource path="res://Spriter/animaatio/idle_061.png" type="Texture" id=62]
-[ext_resource path="res://Spriter/animaatio/run_000.png" type="Texture" id=63]
-[ext_resource path="res://Spriter/animaatio/run_001.png" type="Texture" id=64]
-[ext_resource path="res://Spriter/animaatio/run_002.png" type="Texture" id=65]
-[ext_resource path="res://Spriter/animaatio/run_003.png" type="Texture" id=66]
-[ext_resource path="res://Spriter/animaatio/run_004.png" type="Texture" id=67]
-[ext_resource path="res://Spriter/animaatio/run_005.png" type="Texture" id=68]
-[ext_resource path="res://Spriter/animaatio/run_006.png" type="Texture" id=69]
-[ext_resource path="res://Spriter/animaatio/run_007.png" type="Texture" id=70]
-[ext_resource path="res://Spriter/animaatio/run_008.png" type="Texture" id=71]
-[ext_resource path="res://Spriter/animaatio/run_009.png" type="Texture" id=72]
-[ext_resource path="res://Spriter/animaatio/run_010.png" type="Texture" id=73]
-[ext_resource path="res://Spriter/animaatio/run_011.png" type="Texture" id=74]
-[ext_resource path="res://Spriter/animaatio/run_012.png" type="Texture" id=75]
-[ext_resource path="res://Spriter/animaatio/run_013.png" type="Texture" id=76]
-[ext_resource path="res://Spriter/animaatio/run_014.png" type="Texture" id=77]
-[ext_resource path="res://Spriter/animaatio/run_015.png" type="Texture" id=78]
-[ext_resource path="res://Spriter/animaatio/run_016.png" type="Texture" id=79]
-[ext_resource path="res://Spriter/animaatio/run_017.png" type="Texture" id=80]
-[ext_resource path="res://Spriter/animaatio/run_018.png" type="Texture" id=81]
-[ext_resource path="res://Spriter/animaatio/run_019.png" type="Texture" id=82]
-[ext_resource path="res://Spriter/animaatio/run_020.png" type="Texture" id=83]
-[ext_resource path="res://Spriter/animaatio/run_021.png" type="Texture" id=84]
-[ext_resource path="res://Spriter/animaatio/run_022.png" type="Texture" id=85]
-[ext_resource path="res://Spriter/animaatio/run_023.png" type="Texture" id=86]
-[ext_resource path="res://Spriter/animaatio/run_024.png" type="Texture" id=87]
-[ext_resource path="res://Spriter/animaatio/run_025.png" type="Texture" id=88]
-[ext_resource path="res://Spriter/animaatio/run_026.png" type="Texture" id=89]
-[ext_resource path="res://Spriter/animaatio/run_027.png" type="Texture" id=90]
-[ext_resource path="res://Spriter/animaatio/run_028.png" type="Texture" id=91]
-[ext_resource path="res://Spriter/animaatio/run_029.png" type="Texture" id=92]
-[ext_resource path="res://Spriter/animaatio/run_030.png" type="Texture" id=93]
-[ext_resource path="res://Spriter/animaatio/run_031.png" type="Texture" id=94]
-[ext_resource path="res://Spriter/animaatio/run_032.png" type="Texture" id=95]
-[ext_resource path="res://Spriter/animaatio/run_033.png" type="Texture" id=96]
-[ext_resource path="res://Spriter/animaatio/run_034.png" type="Texture" id=97]
-[ext_resource path="res://Spriter/animaatio/run_035.png" type="Texture" id=98]
-[ext_resource path="res://Spriter/animaatio/run_036.png" type="Texture" id=99]
-[ext_resource path="res://Spriter/animaatio/run_037.png" type="Texture" id=100]
-[ext_resource path="res://Spriter/animaatio/run_038.png" type="Texture" id=101]
-[ext_resource path="res://Spriter/animaatio/run_039.png" type="Texture" id=102]
-[ext_resource path="res://Spriter/animaatio/run_040.png" type="Texture" id=103]
-[ext_resource path="res://Spriter/animaatio/run_041.png" type="Texture" id=104]
-[ext_resource path="res://Spriter/animaatio/run_042.png" type="Texture" id=105]
-[ext_resource path="res://Spriter/animaatio/run_043.png" type="Texture" id=106]
-[ext_resource path="res://Spriter/animaatio/run_044.png" type="Texture" id=107]
-[ext_resource path="res://Spriter/animaatio/run_045.png" type="Texture" id=108]
-[ext_resource path="res://Spriter/animaatio/run_046.png" type="Texture" id=109]
-[ext_resource path="res://Spriter/animaatio/run_047.png" type="Texture" id=110]
-[ext_resource path="res://Spriter/animaatio/run_048.png" type="Texture" id=111]
-[ext_resource path="res://Spriter/animaatio/run_049.png" type="Texture" id=112]
-[ext_resource path="res://Spriter/animaatio/run_050.png" type="Texture" id=113]
-[ext_resource path="res://Spriter/animaatio/run_051.png" type="Texture" id=114]
-[ext_resource path="res://Spriter/animaatio/run_052.png" type="Texture" id=115]
-[ext_resource path="res://Spriter/animaatio/run_053.png" type="Texture" id=116]
-[ext_resource path="res://Spriter/animaatio/run_054.png" type="Texture" id=117]
-[ext_resource path="res://Spriter/animaatio/run_055.png" type="Texture" id=118]
-[ext_resource path="res://Spriter/animaatio/run_056.png" type="Texture" id=119]
-[ext_resource path="res://Spriter/animaatio/run_057.png" type="Texture" id=120]
-[ext_resource path="res://Spriter/animaatio/run_058.png" type="Texture" id=121]
-[ext_resource path="res://Spriter/animaatio/run_059.png" type="Texture" id=122]
-[ext_resource path="res://Spriter/animaatio/run_060.png" type="Texture" id=123]
-[ext_resource path="res://Spriter/animaatio/run_061.png" type="Texture" id=124]
-[ext_resource path="res://Animation.gd" type="Script" id=125]
-[ext_resource path="res://LateralKeyboardControl.gd" type="Script" id=126]
-[ext_resource path="res://JumpFallControl.gd" type="Script" id=127]
-[ext_resource path="res://DieFromCollision.gd" type="Script" id=128]
+[ext_resource path="res://Spriter/animaatio/jump_000.png" type="Texture" id=63]
+[ext_resource path="res://Spriter/animaatio/jump_001.png" type="Texture" id=64]
+[ext_resource path="res://Spriter/animaatio/jump_002.png" type="Texture" id=65]
+[ext_resource path="res://Spriter/animaatio/jump_003.png" type="Texture" id=66]
+[ext_resource path="res://Spriter/animaatio/jump_004.png" type="Texture" id=67]
+[ext_resource path="res://Spriter/animaatio/jump_005.png" type="Texture" id=68]
+[ext_resource path="res://Spriter/animaatio/jump_006.png" type="Texture" id=69]
+[ext_resource path="res://Spriter/animaatio/jump_007.png" type="Texture" id=70]
+[ext_resource path="res://Spriter/animaatio/jump_008.png" type="Texture" id=71]
+[ext_resource path="res://Spriter/animaatio/jump_009.png" type="Texture" id=72]
+[ext_resource path="res://Spriter/animaatio/jump_010.png" type="Texture" id=73]
+[ext_resource path="res://Spriter/animaatio/jump_011.png" type="Texture" id=74]
+[ext_resource path="res://Spriter/animaatio/jump_012.png" type="Texture" id=75]
+[ext_resource path="res://Spriter/animaatio/jump_013.png" type="Texture" id=76]
+[ext_resource path="res://Spriter/animaatio/jump_014.png" type="Texture" id=77]
+[ext_resource path="res://Spriter/animaatio/jump_015.png" type="Texture" id=78]
+[ext_resource path="res://Spriter/animaatio/jump_016.png" type="Texture" id=79]
+[ext_resource path="res://Spriter/animaatio/jump_017.png" type="Texture" id=80]
+[ext_resource path="res://Spriter/animaatio/jump_018.png" type="Texture" id=81]
+[ext_resource path="res://Spriter/animaatio/jump_019.png" type="Texture" id=82]
+[ext_resource path="res://Spriter/animaatio/jump_020.png" type="Texture" id=83]
+[ext_resource path="res://Spriter/animaatio/jump_021.png" type="Texture" id=84]
+[ext_resource path="res://Spriter/animaatio/jump_022.png" type="Texture" id=85]
+[ext_resource path="res://Spriter/animaatio/jump_023.png" type="Texture" id=86]
+[ext_resource path="res://Spriter/animaatio/jump_024.png" type="Texture" id=87]
+[ext_resource path="res://Spriter/animaatio/jump_025.png" type="Texture" id=88]
+[ext_resource path="res://Spriter/animaatio/jump_026.png" type="Texture" id=89]
+[ext_resource path="res://Spriter/animaatio/jump_027.png" type="Texture" id=90]
+[ext_resource path="res://Spriter/animaatio/jump_028.png" type="Texture" id=91]
+[ext_resource path="res://Spriter/animaatio/jump_029.png" type="Texture" id=92]
+[ext_resource path="res://Spriter/animaatio/jump_030.png" type="Texture" id=93]
+[ext_resource path="res://Spriter/animaatio/jump_031.png" type="Texture" id=94]
+[ext_resource path="res://Spriter/animaatio/jump_032.png" type="Texture" id=95]
+[ext_resource path="res://Spriter/animaatio/jump_033.png" type="Texture" id=96]
+[ext_resource path="res://Spriter/animaatio/jump_034.png" type="Texture" id=97]
+[ext_resource path="res://Spriter/animaatio/jump_035.png" type="Texture" id=98]
+[ext_resource path="res://Spriter/animaatio/jump_036.png" type="Texture" id=99]
+[ext_resource path="res://Spriter/animaatio/jump_037.png" type="Texture" id=100]
+[ext_resource path="res://Spriter/animaatio/jump_038.png" type="Texture" id=101]
+[ext_resource path="res://Spriter/animaatio/jump_039.png" type="Texture" id=102]
+[ext_resource path="res://Spriter/animaatio/jump_040.png" type="Texture" id=103]
+[ext_resource path="res://Spriter/animaatio/jump_041.png" type="Texture" id=104]
+[ext_resource path="res://Spriter/animaatio/jump_042.png" type="Texture" id=105]
+[ext_resource path="res://Spriter/animaatio/jump_043.png" type="Texture" id=106]
+[ext_resource path="res://Spriter/animaatio/jump_044.png" type="Texture" id=107]
+[ext_resource path="res://Spriter/animaatio/jump_045.png" type="Texture" id=108]
+[ext_resource path="res://Spriter/animaatio/jump_046.png" type="Texture" id=109]
+[ext_resource path="res://Spriter/animaatio/jump_047.png" type="Texture" id=110]
+[ext_resource path="res://Spriter/animaatio/jump_048.png" type="Texture" id=111]
+[ext_resource path="res://Spriter/animaatio/jump_049.png" type="Texture" id=112]
+[ext_resource path="res://Spriter/animaatio/jump_050.png" type="Texture" id=113]
+[ext_resource path="res://Spriter/animaatio/jump_051.png" type="Texture" id=114]
+[ext_resource path="res://Spriter/animaatio/jump_052.png" type="Texture" id=115]
+[ext_resource path="res://Spriter/animaatio/jump_053.png" type="Texture" id=116]
+[ext_resource path="res://Spriter/animaatio/jump_054.png" type="Texture" id=117]
+[ext_resource path="res://Spriter/animaatio/jump_055.png" type="Texture" id=118]
+[ext_resource path="res://Spriter/animaatio/jump_056.png" type="Texture" id=119]
+[ext_resource path="res://Spriter/animaatio/jump_057.png" type="Texture" id=120]
+[ext_resource path="res://Spriter/animaatio/jump_058.png" type="Texture" id=121]
+[ext_resource path="res://Spriter/animaatio/jump_059.png" type="Texture" id=122]
+[ext_resource path="res://Spriter/animaatio/jump_060.png" type="Texture" id=123]
+[ext_resource path="res://Spriter/animaatio/jump_061.png" type="Texture" id=124]
+[ext_resource path="res://Spriter/animaatio/run_000.png" type="Texture" id=125]
+[ext_resource path="res://Spriter/animaatio/run_001.png" type="Texture" id=126]
+[ext_resource path="res://Spriter/animaatio/run_002.png" type="Texture" id=127]
+[ext_resource path="res://Spriter/animaatio/run_003.png" type="Texture" id=128]
+[ext_resource path="res://Spriter/animaatio/run_004.png" type="Texture" id=129]
+[ext_resource path="res://Spriter/animaatio/run_005.png" type="Texture" id=130]
+[ext_resource path="res://Spriter/animaatio/run_006.png" type="Texture" id=131]
+[ext_resource path="res://Spriter/animaatio/run_007.png" type="Texture" id=132]
+[ext_resource path="res://Spriter/animaatio/run_008.png" type="Texture" id=133]
+[ext_resource path="res://Spriter/animaatio/run_009.png" type="Texture" id=134]
+[ext_resource path="res://Spriter/animaatio/run_010.png" type="Texture" id=135]
+[ext_resource path="res://Spriter/animaatio/run_011.png" type="Texture" id=136]
+[ext_resource path="res://Spriter/animaatio/run_012.png" type="Texture" id=137]
+[ext_resource path="res://Spriter/animaatio/run_013.png" type="Texture" id=138]
+[ext_resource path="res://Spriter/animaatio/run_014.png" type="Texture" id=139]
+[ext_resource path="res://Spriter/animaatio/run_015.png" type="Texture" id=140]
+[ext_resource path="res://Spriter/animaatio/run_016.png" type="Texture" id=141]
+[ext_resource path="res://Spriter/animaatio/run_017.png" type="Texture" id=142]
+[ext_resource path="res://Spriter/animaatio/run_018.png" type="Texture" id=143]
+[ext_resource path="res://Spriter/animaatio/run_019.png" type="Texture" id=144]
+[ext_resource path="res://Spriter/animaatio/run_020.png" type="Texture" id=145]
+[ext_resource path="res://Spriter/animaatio/run_021.png" type="Texture" id=146]
+[ext_resource path="res://Spriter/animaatio/run_022.png" type="Texture" id=147]
+[ext_resource path="res://Spriter/animaatio/run_023.png" type="Texture" id=148]
+[ext_resource path="res://Spriter/animaatio/run_024.png" type="Texture" id=149]
+[ext_resource path="res://Spriter/animaatio/run_025.png" type="Texture" id=150]
+[ext_resource path="res://Spriter/animaatio/run_026.png" type="Texture" id=151]
+[ext_resource path="res://Spriter/animaatio/run_027.png" type="Texture" id=152]
+[ext_resource path="res://Spriter/animaatio/run_028.png" type="Texture" id=153]
+[ext_resource path="res://Spriter/animaatio/run_029.png" type="Texture" id=154]
+[ext_resource path="res://Spriter/animaatio/run_030.png" type="Texture" id=155]
+[ext_resource path="res://Spriter/animaatio/run_031.png" type="Texture" id=156]
+[ext_resource path="res://Spriter/animaatio/run_032.png" type="Texture" id=157]
+[ext_resource path="res://Spriter/animaatio/run_033.png" type="Texture" id=158]
+[ext_resource path="res://Spriter/animaatio/run_034.png" type="Texture" id=159]
+[ext_resource path="res://Spriter/animaatio/run_035.png" type="Texture" id=160]
+[ext_resource path="res://Spriter/animaatio/run_036.png" type="Texture" id=161]
+[ext_resource path="res://Spriter/animaatio/run_037.png" type="Texture" id=162]
+[ext_resource path="res://Spriter/animaatio/run_038.png" type="Texture" id=163]
+[ext_resource path="res://Spriter/animaatio/run_039.png" type="Texture" id=164]
+[ext_resource path="res://Spriter/animaatio/run_040.png" type="Texture" id=165]
+[ext_resource path="res://Spriter/animaatio/run_041.png" type="Texture" id=166]
+[ext_resource path="res://Spriter/animaatio/run_042.png" type="Texture" id=167]
+[ext_resource path="res://Spriter/animaatio/run_043.png" type="Texture" id=168]
+[ext_resource path="res://Spriter/animaatio/run_044.png" type="Texture" id=169]
+[ext_resource path="res://Spriter/animaatio/run_045.png" type="Texture" id=170]
+[ext_resource path="res://Spriter/animaatio/run_046.png" type="Texture" id=171]
+[ext_resource path="res://Spriter/animaatio/run_047.png" type="Texture" id=172]
+[ext_resource path="res://Spriter/animaatio/run_048.png" type="Texture" id=173]
+[ext_resource path="res://Spriter/animaatio/run_049.png" type="Texture" id=174]
+[ext_resource path="res://Spriter/animaatio/run_050.png" type="Texture" id=175]
+[ext_resource path="res://Spriter/animaatio/run_051.png" type="Texture" id=176]
+[ext_resource path="res://Spriter/animaatio/run_052.png" type="Texture" id=177]
+[ext_resource path="res://Spriter/animaatio/run_053.png" type="Texture" id=178]
+[ext_resource path="res://Spriter/animaatio/run_054.png" type="Texture" id=179]
+[ext_resource path="res://Spriter/animaatio/run_055.png" type="Texture" id=180]
+[ext_resource path="res://Spriter/animaatio/run_056.png" type="Texture" id=181]
+[ext_resource path="res://Spriter/animaatio/run_057.png" type="Texture" id=182]
+[ext_resource path="res://Spriter/animaatio/run_058.png" type="Texture" id=183]
+[ext_resource path="res://Spriter/animaatio/run_059.png" type="Texture" id=184]
+[ext_resource path="res://Spriter/animaatio/run_060.png" type="Texture" id=185]
+[ext_resource path="res://Spriter/animaatio/run_061.png" type="Texture" id=186]
+[ext_resource path="res://LateralKeyboardControl.gd" type="Script" id=187]
+[ext_resource path="res://JumpFallControl.gd" type="Script" id=188]
+[ext_resource path="res://DieFromCollision.gd" type="Script" id=189]
+[ext_resource path="res://FinishFromCollision.gd" type="Script" id=190]
 
 [sub_resource type="CapsuleShape2D" id=1]
 
@@ -144,6 +206,11 @@ animations = [ {
 "speed": 30.0
 }, {
 "frames": [ ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 87 ), ExtResource( 88 ), ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 96 ), ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ), ExtResource( 103 ), ExtResource( 104 ), ExtResource( 105 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 115 ), ExtResource( 116 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 120 ), ExtResource( 121 ), ExtResource( 122 ), ExtResource( 123 ), ExtResource( 124 ) ],
+"loop": false,
+"name": "jump",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 125 ), ExtResource( 126 ), ExtResource( 127 ), ExtResource( 128 ), ExtResource( 129 ), ExtResource( 130 ), ExtResource( 131 ), ExtResource( 132 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 135 ), ExtResource( 136 ), ExtResource( 137 ), ExtResource( 138 ), ExtResource( 139 ), ExtResource( 140 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 143 ), ExtResource( 144 ), ExtResource( 145 ), ExtResource( 146 ), ExtResource( 147 ), ExtResource( 148 ), ExtResource( 149 ), ExtResource( 150 ), ExtResource( 151 ), ExtResource( 152 ), ExtResource( 153 ), ExtResource( 154 ), ExtResource( 155 ), ExtResource( 156 ), ExtResource( 157 ), ExtResource( 158 ), ExtResource( 159 ), ExtResource( 160 ), ExtResource( 161 ), ExtResource( 162 ), ExtResource( 163 ), ExtResource( 164 ), ExtResource( 165 ), ExtResource( 166 ), ExtResource( 167 ), ExtResource( 168 ), ExtResource( 169 ), ExtResource( 170 ), ExtResource( 171 ), ExtResource( 172 ), ExtResource( 173 ), ExtResource( 174 ), ExtResource( 175 ), ExtResource( 176 ), ExtResource( 177 ), ExtResource( 178 ), ExtResource( 179 ), ExtResource( 180 ), ExtResource( 181 ), ExtResource( 182 ), ExtResource( 183 ), ExtResource( 184 ), ExtResource( 185 ), ExtResource( 186 ) ],
 "loop": true,
 "name": "walk",
 "speed": 30.0
@@ -172,11 +239,9 @@ transform/pos = Vector2( -35, 25 )
 transform/scale = Vector2( 0.4, 0.4 )
 frames = SubResource( 3 )
 animation = "default"
-frame = 45
+frame = 49
 playing = true
 offset = Vector2( 120, 0 )
-script/script = ExtResource( 125 )
-priorities = ""
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
@@ -199,9 +264,10 @@ drag_margin/bottom = 0.2
 
 [node name="LateralKeyboardControl" type="Node" parent="."]
 
-script/script = ExtResource( 126 )
+script/script = ExtResource( 187 )
 target = NodePath("..")
 animation = NodePath("../Animation")
+floor_sensor = NodePath("../FloorSensor")
 move_speed = 500.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -233,19 +299,26 @@ _update_shape_index = 0
 
 [node name="JumpFallControl" type="Node" parent="."]
 
-script/script = ExtResource( 127 )
+script/script = ExtResource( 188 )
 target = NodePath("..")
 floor_sensor = NodePath("../FloorSensor")
+animation = NodePath("../Animation")
 jump_speed = 1300.0
 fall_speed = 1000.0
 
 [node name="DieFromCollision" type="Node" parent="."]
 
-script/script = ExtResource( 128 )
+script/script = ExtResource( 189 )
 death_sensor = NodePath("../DeathSensor")
+
+[node name="FinishFromCollision" type="Node" parent="."]
+
+script/script = ExtResource( 190 )
+finish_sensor = NodePath("../FinishSensor")
 
 [node name="DeathSensor" type="Area2D" parent="."]
 
+editor/display_folded = true
 input/pickable = true
 shapes/0/shape = SubResource( 1 )
 shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
@@ -258,6 +331,26 @@ collision/layers = 2
 collision/mask = 2
 
 [node name="DeathSensorShape" type="CollisionShape2D" parent="DeathSensor"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="FinishSensor" type="Area2D" parent="."]
+
+editor/display_folded = true
+input/pickable = true
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+collision/layers = 4
+collision/mask = 4
+
+[node name="DeathSensorShape" type="CollisionShape2D" parent="FinishSensor"]
 
 shape = SubResource( 1 )
 trigger = false

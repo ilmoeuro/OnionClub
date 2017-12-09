@@ -2,11 +2,13 @@ extends Node
 
 export(NodePath) var target
 export(NodePath) var floor_sensor
+export(NodePath) var animation
 export(float) var jump_speed = 60
 export(float) var fall_speed = 20.0
 
 onready var target_node
 onready var sensor_node
+onready var animation_node
 var jumped = false
 var velocity = 0
 
@@ -14,6 +16,7 @@ func _ready():
 	set_fixed_process(true)
 	target_node = get_node(target)
 	sensor_node = get_node(floor_sensor)
+	animation_node = get_node(animation)
 
 func _on_ground():
 	return not sensor_node.get_overlapping_bodies().empty() 
@@ -24,6 +27,8 @@ func _fixed_process(delta):
 		jumped = true
 	
 	if not _on_ground():
+		if jumped == true:
+			animation_node.set_animation("jump")
 		jumped = false
 	
 	velocity += fall_speed*delta
