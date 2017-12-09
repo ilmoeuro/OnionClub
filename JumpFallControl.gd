@@ -27,9 +27,10 @@ func _fixed_process(delta):
 		jumped = true
 	
 	if not _on_ground():
-		if jumped == true:
-			animation_node.set_animation("jump")
 		jumped = false
+	
+	if velocity < 0 and animation_node.get_animation() != "jump":
+		animation_node.set_animation("jump")
 	
 	velocity += fall_speed*delta
 	target_node.move(Vector2(0, velocity*delta))
